@@ -1,0 +1,110 @@
+/*SIDEBAR*/
+.sidebar {
+  margin:0 ;
+  padding: 0;
+  width: 250px;
+  background-color: rgba(101, 85, 143, 1);
+  background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?q=80&w=1220);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh; /* Changed to fit the viewport height */
+  overflow: auto;
+  color: #21c9bb;
+  font-family: cursive;
+}
+
+.sidebar a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  color: rgba(0, 255, 255, 1);
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #21c9bb;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 20px;
+  }
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*CONTENIDO Y BODY*/
+.contenido {
+  width: 70%;
+  background-color: rgb(35, 14, 58);
+  position: relative;
+  top: 0;
+  left: 17%;
+  right: 100%;
+  min-height: 100vh; /* Ensures it expands with content */
+  
+}
+
+.contenido h1 {
+  color: rgba(0, 255, 255, 1);
+}
+
+.contenido h2 {
+  color: rgba(124, 0, 255, 1);
+}
+
+.contenido h4 {
+  color: rgb(80, 66, 114);
+}
+
+
+body {
+  background-color: rgb(35, 14, 58);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column; /* Changed to column for natural flow */
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding:0;
+}
+
+nav {
+  color: rgb(199, 151, 250);
+}
+
+p {
+  color: rgb(60, 118, 206);
+}
+
+a[href] {
+  color:rgba(0, 255, 255, 1)
+ /* Corrected alpha value */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  color: rgb(113, 128, 128);
+}
+
