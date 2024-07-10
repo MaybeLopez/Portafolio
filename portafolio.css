@@ -6,7 +6,7 @@
   background-color: rgba(101, 85, 143, 1);
   background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?q=80&w=1220);
   position: fixed;
-  left: 17;
+  left: 17px;
   top: 0;
   height: 100vh; /* Changed to fit the viewport height */
   overflow: auto;
