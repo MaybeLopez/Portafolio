@@ -50,7 +50,7 @@ aside {
   background-color: rgb(35, 14, 58);
   position: relative;
   top: 0;
-  left:0;
+  left: 17%;
   right: 100%;
   min-height: 100vh; /* Ensures it expands with content */
   
