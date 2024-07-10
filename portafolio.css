@@ -6,7 +6,7 @@
   background-color: rgba(101, 85, 143, 1);
   background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?q=80&w=1220);
   position: fixed;
-  left: 0;
+  left: 17;
   top: 0;
   height: 100vh; /* Changed to fit the viewport height */
   overflow: auto;
@@ -46,11 +46,11 @@ aside {
 
 /*CONTENIDO Y BODY*/
 .contenido {
-  width: 70%;
+  width:80%;
   background-color: rgb(35, 14, 58);
   position: relative;
   top: 0;
-  left:0;
+  left: 250px;;
   right: 100%;
   min-height: 100vh; /* Ensures it expands with content */
   
